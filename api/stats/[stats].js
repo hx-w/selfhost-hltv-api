@@ -4,7 +4,7 @@ module.exports = async(req, res) => {
  // const stats = await HLTV.getStatsByMatchId(req.params)
  // res.json(stats)
   const {
-    query: {name},
+    query: { name },
   } = req
   res.send(`hello ${name}`)
 }
