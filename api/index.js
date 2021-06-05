@@ -1,6 +1,6 @@
 const HLTV = require('hltv-api').default
 
-module.exports = async(req, res) => {
-  const results = await HLTV.getResults()
+module.exports = (req, res) => {
+  const results = HLTV.getResults()
   res.json(result)
 }
