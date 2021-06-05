@@ -1,0 +1,24 @@
+{
+  "name": "selfhost-hltv-api",
+  "version": "1.0.0",
+  "description": "used by myself",
+  "main": "build.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hltv-api": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hx-w/selfhost-hltv-api.git"
+  },
+  "author": "hx-w",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hx-w/selfhost-hltv-api/issues"
+  },
+  "homepage": "https://github.com/hx-w/selfhost-hltv-api#readme"
+}
