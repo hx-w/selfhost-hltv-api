@@ -1,6 +1,8 @@
 const HLTV = require('hltv-api').default
 
 module.exports = async(req, res) => {
-  const stats = await HLTV.getStatsByMatchId(req.query.stats)
+  var matchId = req.query.stats
+  matchId = matchId.split('_').join('/')
+  const stats = await HLTV.getStatsByMatchId(matchId)
   res.json(stats)
 }
